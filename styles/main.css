@@ -1,0 +1,60 @@
+.background{
+  background: url(./water.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.title{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+.text-day{
+    background-color: rgba(255,255,255,0.13) !important;
+    border-radius: 10px;
+    backdrop-filter: blur(10px) ;
+    border: 2px solid rgba(255,255,255,0.1) ;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6) !important;   
+}
+.text-day .header{
+  backdrop-filter:none !important;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.text-day p{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  display: inline-block;
+}
+.movil{
+  display: none;
+}
+.icon-sidebar{
+  color: aliceblue;
+}
+
+span{
+  color: gold;
+}
+
+@media screen and (max-width: 600px) {
+  .movil{
+    display: inline-block;
+  }
+  .desktop{
+    display: none;
+  }
+  .title{
+    font-size: 40px;
+  }
+  .text-day{
+    backdrop-filter: blur(4px) ;   
+}
+
+};
+  

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--styles-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="shortcut icon" href="./styles/ebenezer-lo.png" type="image/x-icon">
+  <!--scripts-->
+  <script  src="./scripts/jquery-3.1.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <script src="./scripts/main.js"></script>
+  <title>presencia | HOME PAGE </title>
+ 
+</head>
+<body >
+  <!--barra lateral-->
+  <div class="ui sidebar vertical left inverted menu">
+    <div class="item">
+      <img src="./styles/ebenezer-lo.png" alt="logo" class="ui tiny image">
+    </div>
+    <a href="#servicios" class="item">
+      <i class="home icon"></i>
+      Servicios
+    </a>
+    <a href="#contac" class="item">
+      <i class="info icon"></i>
+      Peticiones
+    </a>
+    <a href="#galeria" class="item">
+      <i class="mail icon"></i>
+      Galeria
+    </a>
+  </div>
+  <!--contenido-->
+  <div class="pusher">
+  <!--Menu-->
+    <div class="menu">
+      <div class="ui inverted segment">
+        <div class="ui two column grid">
+          <div class="column">
+            <div class="movil">
+              <a href="#" id="sidebar" class="icon-sidebar">
+                <i class="big list icon icon-sidebar"></i>
+              </a>
+            </div>
+            <a href="/" class="desktop">
+              <img class="ui small image" src="https://www.ebenezer.org.gt/wp-content/uploads/2021/05/logo-ebenezer-menu-2.png" alt="ebenezer-logo">
+            </a>
+          </div>
+          <div class="column ">
+            <a href="/" class="movil">
+              <img class="ui small image" src="https://www.ebenezer.org.gt/wp-content/uploads/2021/05/logo-ebenezer-menu-2.png" alt="ebenezer-logo">
+            </a>
+            <div class="desktop">
+              <nav class="ui secondary inverted pointing menu">
+                <a href="#servicios" class="right item">Servicios</a>
+                <a href="#peticiones" class="item">Peticiones</a>
+                <a href="#galeria" class="item">Galeria</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--header-->
+  <div class="background" id="home">
+    <div>
+      <h1 class="title">BIENVENIDOS A <br><span>PRESENCIA DE DIOS</span></h1>
+    </div>
+    <div class="ui segment text-day">
+      <div class="ui container">
+        <h5 class="header">Texto Del Dia</h5>
+        <p id="text-day">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia facilis aperiam facere repellendus, minima corporis laboriosam reprehenderit laudantium eligendi aliquid saepe. Doloremque tempore autem voluptates consequatur pariatur repellat dolorem commodi!
+          Iste dicta cum illo porro voluptas nemo exercitationem ullam dolor at asperiores fugiat libero non vel, sunt impedit quos expedita voluptate officia iure odio facere alias provident. Dicta, blanditiis alias!
+        </p>
+      </div>
+    </div>
+    <div class="ui container">
+      <div class="ui two column grid">
+        <div class="column">
+          <div class="ui card link" id="modal1">
+            <img src="./styles/biblia.jpg" alt="">
+            <h3 class="header">Temas Online</h3>
+          </div>
+          <div class="ui modal modal1">
+            <div class="header">Temas Online</div>
+            <div class="image content">
+              <img class="image" alt="modal img test">
+              <div class="description">
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui card link" id="modal2">
+            <img src="./styles/biblia.jpg" alt="">
+            <h3 class="header">Trasmiciones</h3>
+          </div>
+          <div class="ui modal modal2">
+            <div class="header">Trasmiciones</div>
+            <div class="image content">
+              <img class="image" alt="modal img test">
+              <div class="description">
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--servicios-->
+  <div class="ui container" id="servicios">
+    <div>
+      <h1>NUESTROS SERVICIOS</h1>
+    </div>
+    <table class="ui selectable inverted table">
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Servicio</th>
+          <th class="right aligned">Modalidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lunes</td>
+          <td>Oracion he intercesacion</td>
+          <td class="right aligned"><a href="#">Trasmicion</a></td>
+        </tr>
+        <tr>
+          <td>Martes</td>
+          <td>Servicio General Famliar</td>
+          <td class="right aligned">Precensial</td>
+        </tr>
+        <tr>
+          <td>Miercoles</td>
+          <td>Servicio de Damas</td>
+          <td class="right aligned">Precensial</td>
+        </tr>
+        <tr>
+          <td>Jueves</td>
+          <td>Servicio General Escatologia</td>
+          <td class="right aligned">Presencial</td>
+        </tr>
+        <tr>
+          <td>Sabado</td>
+          <td>Servicio de Jovenes</td>
+          <td class="right aligned">Presencial</td>
+        </tr>
+        <tr>
+          <td>Domingo</td>
+          <td>Servicio General Dominical</td>
+          <td class="right aligned">Precensial</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--galeria-->
+ 
+
+
+
+
+
+  </div>
+</body>
+</html>
